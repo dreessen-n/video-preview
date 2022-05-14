@@ -1,11 +1,11 @@
 console.log("page loaded...");
 
-function playVideo() {
-    var x = document.getElementById('swissVideo');
+function playVideo(name) {
+    var x = document.getElementById(name);
     x.play();
 }
 
-function pauseVideo() {
-    var x = document.getElementById('swissVideo');
+function pauseVideo(name) {
+    var x = document.getElementById(name);
     x.pause();
 }
